@@ -6,8 +6,9 @@ import java.sql.DriverManager;
 public class Test {
 
 	public static void main(String[] args) {
-			String user = "SamuelK";
-			String password = "password1";
+			//if you dont know how to create a username or password i created a .sql file that have the code to do exactly that
+			String user = "";
+			String password = "";
 			String url="jdbc:mysql://localhost:3306/mycompanyDB?useSSL=false&serverTimezone=UTC";
 			//String driver = "com.mysql.cj.jdbc.Driver";
 		
